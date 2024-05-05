@@ -55,5 +55,6 @@ def build():
     TrafficDataset.download()
 
 if __name__ == '__main__':
-    logging.root.setLevel(logging.INFO)
-    Fire()
+    M4Dataset.download()
+    # logging.root.setLevel(logging.INFO)
+    # Fire()
