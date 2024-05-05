@@ -18,6 +18,14 @@ Datasets module
 import logging
 import ssl
 
+import sys
+import os
+
+key = "STORAGE"
+value = "/home/gabe/Desktop/N-BEATS"
+
+os.environ[key] = value
+sys.path.append(value)
 from fire import Fire
 
 from datasets.electricity import ElectricityDataset

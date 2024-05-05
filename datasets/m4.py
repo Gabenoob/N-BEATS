@@ -25,7 +25,8 @@ import numpy as np
 import pandas as pd
 import patoolib
 from tqdm import tqdm
-
+import sys
+sys.path.insert(0,'/home/gabe/Desktop/N-BEATS')
 from common.http_utils import download, url_file_name
 from common.settings import DATASETS_PATH
 
