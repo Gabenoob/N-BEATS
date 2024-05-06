@@ -22,17 +22,17 @@ import sys
 import os
 
 key = "STORAGE"
-value = "/home/gabe/Desktop/N-BEATS"
+value = "/data/coding/N-BEATS"
 
 os.environ[key] = value
 sys.path.append(value)
 from fire import Fire
 
-from datasets.electricity import ElectricityDataset
-from datasets.m3 import M3Dataset
+# from datasets.electricity import ElectricityDataset
+# from datasets.m3 import M3Dataset
 from datasets.m4 import M4Dataset
-from datasets.tourism import TourismDataset
-from datasets.traffic import TrafficDataset
+# from datasets.tourism import TourismDataset
+# from datasets.traffic import TrafficDataset
 
 def build():
     """

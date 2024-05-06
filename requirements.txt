@@ -1,7 +1,6 @@
 gin-config
 fire
 matplotlib
-numpy
 pandas
 patool
 torch
